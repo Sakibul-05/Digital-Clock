@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body, .container, .time, .stop{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+body{
+    min-height: 80vh;
+    background-image: url(https://images.hdqwalls.com/download/wooden-background-2560x1440.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+}
+.stop{
+     padding-bottom: 10px;
+}
+.container{
+    background-color: rgb(55, 60, 71);
+    width: fit-content;
+    height: auto;
+    /* padding: 50px 50px 50px 30px; */
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0); 
+}
+
+ .container, .time, .stop, .hours, .minutes, .seconds, .period{
+    /* border: 2px solid red; */
+    margin: 5px;
+
+ }
+
+.time{
+    font-size: 110px;
+    background: -webkit-linear-gradient(90deg, rgb(1, 205, 246), rgb(255, 251, 251)) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+ 
+.period{
+    /* border: 2px solid red; */
+    font-size: 50px;
+    color: rgb(234, 189, 55);
+    margin-top: 25%;
+}
+
+ 
+  
